@@ -7,3 +7,6 @@ def outer_func():
     return inner_func()
 
 outer_func()
+
+# accessing message variable in inner_func which is defined in outer_func
+#message variable is called free variable
